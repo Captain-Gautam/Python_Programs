@@ -6,10 +6,10 @@ Created on Sat Apr 16 08:35:45 2022
 """
 input_year = int(input("Enter the Year to be checked: "))
 if (input_year%400 == 0):
-          print("Given year is a Leap Year")
+          print(f"{input_year} is a Leap Year")
 elif (input_year%100 == 0):
-          print("Given year is a not the Leap Year")
+          print(f"{input_year}is a not the Leap Year")
 elif (input_year%4 == 0):
-          print("Given year is a Leap Year")
+          print(f"{input_year} is a Leap Year")
 else:
-          print("%d is Not the Leap Year")
+          print(f"{input_year} is not the Leap Year")
